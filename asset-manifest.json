@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SerhiyAntipov/site_news/static/css/main.3d5dc2e6.chunk.css",
+    "main.js": "/SerhiyAntipov/site_news/static/js/main.42e679ee.chunk.js",
+    "main.js.map": "/SerhiyAntipov/site_news/static/js/main.42e679ee.chunk.js.map",
+    "runtime-main.js": "/SerhiyAntipov/site_news/static/js/runtime-main.6fa66bdc.js",
+    "runtime-main.js.map": "/SerhiyAntipov/site_news/static/js/runtime-main.6fa66bdc.js.map",
+    "static/js/2.de2ca74e.chunk.js": "/SerhiyAntipov/site_news/static/js/2.de2ca74e.chunk.js",
+    "static/js/2.de2ca74e.chunk.js.map": "/SerhiyAntipov/site_news/static/js/2.de2ca74e.chunk.js.map",
+    "index.html": "/SerhiyAntipov/site_news/index.html",
+    "precache-manifest.4be545e58e1366184d69da269f8b5c8b.js": "/SerhiyAntipov/site_news/precache-manifest.4be545e58e1366184d69da269f8b5c8b.js",
+    "service-worker.js": "/SerhiyAntipov/site_news/service-worker.js",
+    "static/css/main.3d5dc2e6.chunk.css.map": "/SerhiyAntipov/site_news/static/css/main.3d5dc2e6.chunk.css.map",
+    "static/js/2.de2ca74e.chunk.js.LICENSE.txt": "/SerhiyAntipov/site_news/static/js/2.de2ca74e.chunk.js.LICENSE.txt",
+    "static/media/logo.jpg": "/SerhiyAntipov/site_news/static/media/logo.c4d86325.jpg",
+    "static/media/unnamed_01.jpg": "/SerhiyAntipov/site_news/static/media/unnamed_01.bcfca885.jpg",
+    "static/media/user.png": "/SerhiyAntipov/site_news/static/media/user.55a08fa9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fa66bdc.js",
+    "static/js/2.de2ca74e.chunk.js",
+    "static/css/main.3d5dc2e6.chunk.css",
+    "static/js/main.42e679ee.chunk.js"
+  ]
+}
