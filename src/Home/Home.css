@@ -1,0 +1,19 @@
+.home-article__img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-article__img {
+        float: none;
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .home-article__img {
+        width: 290px;
+    }
+}

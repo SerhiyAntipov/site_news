@@ -1,0 +1,37 @@
+.news-article__urlToImage,
+.news-article__title {
+    display: block;
+}
+
+.news-article__urlToImage{
+    max-width: 300px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.news-article__urlToImage img{
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+
+.clear{
+    clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    .news-article__urlToImage{
+        float: none;
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .news-article__urlToImage {
+        width: 290px;
+    }
+}

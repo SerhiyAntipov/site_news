@@ -1,0 +1,14 @@
+.main-header {
+    background-color: #343a40;
+}
+
+.main-header nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.navbar-brand img{
+    width: 160px;
+}

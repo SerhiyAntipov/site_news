@@ -1,0 +1,15 @@
+form .btn[type="submit"] {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    justify-content: center;
+}
+
+.entered-incorrect{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
