@@ -20,7 +20,7 @@ class Login extends React.Component {
             formUserName.value = '';
             formPassword.value = '';
             this.setState({ enteredIncorrect: '' })
-            window.location.href = '/profile';
+            window.location.href = '#/profile';
             localStorage.setItem('login', true);
         } else {
             let temp = <h4 className="entered-incorrect">The username or password you entered is incorrect</h4>

@@ -23,10 +23,10 @@ class NewsArticle extends React.Component {
                 <article className="news-article " key={i}>
                     <a className="news-article__title" href={this.state.newsDataBase[i].url}><h4>{this.state.newsDataBase[i].title}</h4></a>
                     <div className="news-article__content">
-                        <a className="news-article__urlToImage" href={this.state.newsDataBase[i].url}><img src={this.state.newsDataBase[i].urlToImage} alt="news img" /></a>
+                        {/* <a className="news-article__urlToImage" href={this.state.newsDataBase[i].url}><img src={this.state.newsDataBase[i].urlToImage} alt="news img" /></a> */}
                        <div className="news-article__text-content">
-                            <p className="news-article__description">{this.state.newsDataBase[i].description}</p>
-                            <p className="news-article__author">Author: {this.state.newsDataBase[i].author}</p>
+                            {/* <p className="news-article__description">{this.state.newsDataBase[i].description}</p> */}
+                            <p className="news-article__author">Author: {this.state.newsDataBase[i].source.name}</p>
                             <a className="news-article__btn-read-more btn btn-secondary" href={this.state.newsDataBase[i].url}>Read More</a>
                        </div>
                        <div className="clear"></div>

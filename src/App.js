@@ -9,7 +9,7 @@ import Profile from './Profile/Profile';
 import Page404 from './Page404/Page404';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";

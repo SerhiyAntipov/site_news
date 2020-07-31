@@ -6,22 +6,24 @@ class News extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            newsDataBase: '',
+            newsDataBase: ''
         }
     }
 
     componentDidMount() {
         this.getFetchData()
     }
-    // Access-Control-Allow-Origin: https://developer.mozilla.org
-    // getting database from API
+
     getFetchData = () => {
-        fetch('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=592b2b12920a4e7eb867f8406e9a0ce8')
+        fetch('https://gnews.io/api/v3/top-news?token=96b8f8fb1481c274df907dc097849cc3')
             .then(data => {
-                return data.json();
+                console.log("fetch Response -", data)
+                return data.json(); 
             })
             .then(data => {
+                console.log("fetch.then - ", data)
                 data = data["articles"];
+                
                 this.setState({
                     newsDataBase: data
                 })
@@ -29,6 +31,7 @@ class News extends React.Component {
     }
 
     render() {
+
         if (this.state.newsDataBase) {
             return (
                 <section className='news container'>
